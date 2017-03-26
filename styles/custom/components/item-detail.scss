@@ -1,0 +1,44 @@
+
+.item-detail-content {
+	.progress {
+		padding: 0px 0px;
+	    height: auto;
+	    margin: 10px;
+	    overflow: hidden;
+	}
+	.description-content {
+		padding:10px 40px;
+		font-size: 17px;
+		border-right:1px lightgray solid;
+	}
+	.publish-area {
+		font-size:90%;
+		width:200px;
+		display:inline-block;
+	}
+	.number {
+		font-size:16px;
+		color:#f2ae44
+	}
+	a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+.item-detail-Question-Answers {
+	.vote-area {
+		border-right:1px grey solid;
+		text-align: center;
+	}
+	.comment-button-area {
+		float:left;
+		padding-left:19%;
+		button {
+			padding:0 5px;
+			margin-right:10px
+		}
+	}
+}
+h4 {
+	font-size:16px;
+}

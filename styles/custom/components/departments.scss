@@ -1,0 +1,40 @@
+div.departments-container {
+	margin: 30px auto;
+	width: 84%;
+	.panel-heading {
+		background-color: #f7f7f7;
+	}
+	.department-item {
+		width: 20%;
+		margin-right:5%;
+	}
+	.panel-body .panel-heading {
+		text-align: center;
+		background-color: white;
+		border-color: #ddd;
+	}
+	span.badge {
+		color:#E31B23;
+		font-size: 11px;
+		width:auto; 
+		margin-left:15px;
+	    border-radius: 4px;
+	    background: #FFF;
+	    border: 1px solid #EAEBEC;
+	    font-family: "TheinhardtLight", Arial, Helvetica, sans-serif;
+	    padding: 5px;
+	    position: relative;
+	    text-align: center;
+	    text-transform: uppercase;
+	    vertical-align: top;
+		i {
+			font-size:9px
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+}
+div.departments-container > div.panel-body {
+	padding-left:5%;
+}

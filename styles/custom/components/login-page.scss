@@ -1,0 +1,38 @@
+.loginOrSigninPage {
+	padding-top: 100px; 
+	background-size: cover; 
+	width:100%;
+	height:100%;
+	.title {
+		font-size: 18px; 
+		color:#5bc0de;
+	}
+	.suggestion {
+		color:red
+	}
+	.signin-button {
+		margin-top:15px;
+		margin-bottom:10px;
+		float:none
+	}
+	.direct-to-login-text {
+		background-color: white;padding-top: 20px;text-align: center
+	}
+	#retrive-option {
+		span.option {
+			cursor: pointer
+		}
+		span.active{
+			padding:2px 8px;
+			color:white;
+			background-color: #555;
+		}
+	}
+}
+div.form-error-message ul{
+	color:red;
+	padding-left:30px;
+}
+.form-error-message ul>li{
+  padding:0 0;
+}

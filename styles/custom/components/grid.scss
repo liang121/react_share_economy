@@ -1,0 +1,13 @@
+
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+}
+
+[class*='col-'] {
+    padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
